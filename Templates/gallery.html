@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    {% load static %}
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+            line-height: 80px;
+        }
+h1:hover{
+    background-color: blue;
+}
+img{
+    width: 230px;
+    height: 250px;
+}
+
+    </style>
+</head>
+<body>
+<h1>Products offered at Shopdish</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi distinctio labore natus quas? Culpa ea ex excepturi expedita, illo ipsam ratione reiciendis voluptas? Assumenda expedita fugiat, modi officiis sapiente ut?</span><span>Culpa eum excepturi iure molestiae nesciunt nisi tempora vel. Alias debitis eveniet fugiat id illo officia perspiciatis quasi saepe, vero! Consequatur ipsum maxime nulla officiis quaerat sequi ullam vitae voluptatem!</span></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis commodi cumque dolor dolore dolorum id laboriosam mollitia nemo perspiciatis placeat porro quae similique sunt, unde? Alias porro, voluptate! Praesentium!</p>
+
+<img src="{% static 'assets/3.jpg' %}" alt="">
+<img src="{% static 'assets/a - Copy.jpeg' %}" alt="">
+<img src="{% static 'assets/4.jpg' %}" alt="">
+<img src="{% static 'assets/5.jpg' %}" alt="">
+<img src="{% static 'assets/6.jpg' %}" alt="">
+
+</body>
+</html>

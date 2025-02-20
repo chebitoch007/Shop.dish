@@ -1,0 +1,33 @@
+legend{
+    color: green;
+    font-size: 30px;
+}
+button{
+    background-color: green;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+#main{
+    padding-left: 400px;
+}
+input{
+    width: 300px;
+}
+select{
+    width: 300px;
+    height: 30px;
+}
+form{
+    width: 400px;
+    height: 550px;
+    padding-left: 70px;
+    border-radius: 15px;
+    background-color: white;
+}
+body{
+    background-color: whitesmoke;
+}
+
+

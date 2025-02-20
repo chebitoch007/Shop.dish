@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <style>
+        h1{
+            text-align: center;
+            color: purple;
+            font-size: 50px;
+            text-shadow: 8px 8px 8px lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<a href="{% url 'gallery' %}">Gallery</a>
+<a href="{%  url 'about' %}">About</a>
+
+<h1>ShopdishApp</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consequatur cum cupiditate deleniti distinctio earum, exercitationem explicabo id in, ipsum necessitatibus nisi nobis nulla quod suscipit velit? Ducimus, nihil?</span><span>Accusamus ad architecto atque dicta, dolores ea, eius esse ex explicabo id illum, in ipsa laboriosam maxime molestiae nesciunt nihil nobis omnis quae quam sequi sint soluta unde ut veritatis.</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque consequatur itaque magnam maxime nostrum odit perspiciatis quia repudiandae similique suscipit, voluptate? Blanditiis, nihil, placeat. Assumenda cupiditate enim nihil nostrum.</span><span>Adipisci aut exercitationem expedita iste laborum molestias nam obcaecati, omnis porro, quae quia sequi suscipit veniam! Autem beatae facilis, illum maxime molestiae nesciunt quam, tempora tempore ut veritatis voluptas voluptatibus?</span><span>Autem consectetur deserunt distinctio, dolor doloribus eligendi eos esse exercitationem fuga inventore itaque magnam molestias nobis, nulla officiis pariatur provident quidem quo quod saepe similique soluta ullam ut veritatis voluptas?</span></p>
+
+
+
+</body>
+</html>

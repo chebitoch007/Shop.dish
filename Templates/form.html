@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign in</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+
+</head>
+<body>
+
+
+<div id="main">
+
+<form action="">
+    <legend>Registration Form</legend>
+    <br>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" required="required">
+    <br>
+     <br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" required="required">
+    <br>
+     <br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" required="required">
+    <br>
+    <br>
+    <label for="pswrd">Password:</label><br>
+    <input type="password" id="pswrd" required="required">
+    <br>
+    <br>
+    <label for="paswrd">Retype Password:</label><br>
+    <input type="password" id="paswrd" required="required">
+    <br>
+    <br>
+    <label for="contact">Contact:</label><br>
+    <input type="text" id="contact" required="required">
+    <br>
+    <br>
+    <label for="gndr">Gender:</label><br>
+    <select name="" id="gndr">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+        </select>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+    </div>
+
+
+</body>
+</html>
