@@ -29,5 +29,9 @@ form{
 body{
     background-color: whitesmoke;
 }
+.btn{
+    background-color: white;
+    color: blue;
+}
 
 
